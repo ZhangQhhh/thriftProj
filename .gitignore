@@ -1,0 +1,70 @@
+# C++ specific
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+Debug/
+Release/
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.mod
+*.smod
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyz
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.pyvenv/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Thrift generated files
+gen-*/
+
+# Project specific
+# You may need to add or remove files/folders specific to your project
+
+
+# Other files
+       *.log
+       *.csv
+       *.dat
+       *.tmp
+       *.bak
+       *.tar
+       *.tgz
+       *.gz
+       *.zip
